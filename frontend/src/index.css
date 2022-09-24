@@ -1,0 +1,157 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.himg{
+  height: 500px;
+}
+.logo_imgpng{
+  height: 40px;
+  width: 50px;
+}
+
+.nav_link_items{
+  color: #fff;
+  border-bottom: #5a5d7e;
+  text-decoration: none;
+}
+.nav_link_items:hover{
+  color: darkgreen;
+}
+.nav_link_items_d{
+  color: black;
+  text-decoration: none;
+}
+
+
+/* about  */
+.about_heading{
+  text-align: center;
+  margin-top :3rem;
+}
+.about-green{
+  margin: 5rem;
+  border: 1px solid rgb(0, 0, 0);
+  display: flex;  
+  justify-content: space-between;
+  flex-wrap: wrap;
+  align-items: center;
+  box-shadow: 10px 10px 5px #aaaaaa;
+}
+.about_us{
+  width: 600px;
+  text-align: center;
+}
+.about_img{
+  width:500px;
+  height:500px;
+}
+
+
+/* service_m  */
+.service_m{
+  margin-top: 1rem;
+}
+
+
+/* team */
+.team{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.team_card{
+  margin-top:2rem ;
+}
+
+
+
+/* contact  */
+
+.contactus{
+  margin: 5rem;
+}
+
+
+
+/* footer  */
+.footer_link{
+  text-decoration: none;
+}
+
+
+
+
+@media screen and (max-width: 768px) {
+  .logo_imgpng{
+    height: 80px;
+    width: 120px;
+  }
+  
+  @media screen and (max-width: 1024px){
+    .about_img{
+      width:500px;
+      height:500px;
+    }
+    .about-green{
+      margin: 3rem;
+    }
+    
+    .contactus{
+      margin: 3rem;
+    }
+    
+  }
+  @media screen and (max-width: 768px){
+    .about_img{
+      width:500px;
+      height:500px;
+    }
+    .about_us{
+      width: 670px;
+    }
+    .team{
+      justify-content: center;
+    }
+    .team_card{
+      margin:1rem ;
+    }
+    
+  }
+  @media screen and (max-width: 426px){
+    .about_img{
+      height: 300px;
+      width: 381px;
+    }
+    .about-green{
+      margin: 1.3rem;
+    }
+    .contactus{
+      margin: 1.3rem;
+    }
+    
+  }
+  @media screen and (max-width: 376px){
+    .about_img{
+      width: 342px;
+    }
+    .about-green{
+      margin: 1rem;
+    }
+    .contactus{
+      margin: 1rem;
+    }
+    
+  }
+  @media screen and (max-width: 321px){
+    .about_img{
+      width: 286px;
+    }
+  }
+}
+.work{
+  display: flex;
+  justify-content: center;
+}
